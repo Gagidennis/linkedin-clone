@@ -1,0 +1,144 @@
+.sidebar{
+ 
+   
+   
+   align-items: flex-start;
+   flex:0.2;
+   border-radius: 10px;
+   text-align: center;
+   height: fit-content;
+   margin-left: 210px;
+
+
+   
+   
+}
+.sidebar__top>h4{
+   color: gray;
+    font-size: 12px;
+}
+.sidebar__top>h2{
+   
+     font-size: 18px;
+ }
+.sidebar__top>img{
+    margin-bottom: -30px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.sidebar__stat{
+    margin-top:10px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.sidebar__stat>p{
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+.sidebar__stats{
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid lightgray;
+   background-color: white;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+.sidebar__statsnumber{
+    font-weight: bold;
+    color:#497ecc !important;
+}
+.sidebar__avatar{
+    margin-bottom: 10px;
+}
+.sidebar__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0 !important;
+    border: 1px solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    
+
+
+}
+.sidebar__page{
+    color:#498fe9;
+    margin-top: 3px;
+}
+.sidebar__button{
+   
+    text-align: left;
+    position: relative;
+    
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   border-bottom: none;
+    margin-top: 10px;
+   
+}
+.sidebar__events{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sidebar__events>p{
+    color:#498fe9;
+}
+.sidebar__events>span:hover{
+  cursor: pointer;
+
+    
+}
+.sidebar__events>p:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+  
+      
+  }
+  .sidebar__hashtag{
+    color:#498fe9;
+    margin-top: 10rem;
+   
+  }
+  .sidebar__hashtag:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+   
+  }
+  .sidebar__discover{
+    justify-items: center;
+   padding-top: 20px;
+ 
+    height: 40px;
+   background-color: white;
+   border: 1px solid lightgray;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+    margin-top: 0;
+    
+
+  }
+  .sidebar__sticky{
+   top: 65px;
+   position: fixed;
+   
+  }
+  .sidebar__normal{
+    
+    position: static;
+ 
+   }
+  

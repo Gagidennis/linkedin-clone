@@ -11,13 +11,13 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 export  const Header = () => {
   return (
-    <div className='header'>
+    <div className="header">
     
-    <div className='header__left'>
+    <div className="header__left">
         <img  src={image} alt={image.xmlns}/>
-        <div className='header__search'>
-       <SearchIcon/> 
-       <input type='text' />
+        <div className="header__search">
+       <SearchIcon className='header__searchicon'/> 
+       <input className='header__input' type='text'  placeholder='search'/>
         </div>
     </div>
     <div className='header__right'>
@@ -27,8 +27,8 @@ export  const Header = () => {
         <HeaderOptions  Icon={MarkUnreadChatAltIcon } title='Messaging'/>
         <HeaderOptions  Icon={NotificationsIcon } title='notifications'/>
         <span style={{display:'flex'}}>
-        <HeaderOptions  avatar='https://media-exp1.licdn.com/dms/image/C4D03AQEBdGbI-Snl3w/profile-displayphoto-shrink_100_100/0/1659416052537?e=1669248000&amp;v=beta&amp;t=BfP5ZFUJlstB74xysvLyftPLEdby7kWQxGoeXSerzxY' title='Me'/>
-       <span style={{paddingTop:'55px',marginLeft:'0'}}><HeaderOptions   Icon={ArrowDropDownIcon} /></span> 
+        <HeaderOptions  avatar='https://media-exp1.licdn.com/dms/image/C4D03AQEBdGbI-Snl3w/profile-displayphoto-shrink_100_100/0/1659416052537?e=1669248000&amp;v=beta&amp;t=BfP5ZFUJlstB74xysvLyftPLEdby7kWQxGoeXSerzxY' title="Me"/>
+       <span style={{paddingTop:'30px',marginLeft:'0',paddingBottom:'0'}}><HeaderOptions   Icon={ArrowDropDownIcon} /></span> 
 
         </span>
         

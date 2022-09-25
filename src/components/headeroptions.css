@@ -19,4 +19,9 @@
     object-fit: contain;
     height: 25px !important;
     width: 25px !important;
+    margin-bottom: 15px !important;
+}
+
+.headeroption__title{
+    margin-top: none !important;
 }

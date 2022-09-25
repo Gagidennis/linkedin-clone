@@ -1,0 +1,26 @@
+.sidebar__recentitem{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    padding:5px
+}
+.sidebar__hash{
+    margin-right: 10px;
+    margin-right: 5px;
+}
+.sidebar__anchor>a{
+    cursor: pointer;
+    color: gray;
+    text-decoration-line: none;
+   
+}
+.sidebar__recentitem:hover{
+
+    
+   opacity: 0.5;
+   background-color: lightgray;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
